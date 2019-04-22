@@ -1,0 +1,15 @@
+{
+  "name": "daily-coding-problem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap days/*/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tap": "^12.6.3"
+  }
+}
