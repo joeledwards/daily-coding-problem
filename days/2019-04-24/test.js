@@ -1,0 +1,16 @@
+const tap = require('tap')
+const path = require('path')
+const solution = require('./solution')
+const problemDay = path.basename(__dirname)
+
+tap.test(`solution for ${problemDay} should work`, async assert => {
+  assert.equal(solution([]), 1)
+  assert.equal(solution([]), 1)
+  assert.equal(solution([0]), 1)
+  assert.equal(solution([1]), 2)
+  assert.equal(solution([2]), 1)
+  assert.equal(solution([0, 1]), 2)
+  assert.equal(solution([1, 2, 0]), 3)
+  assert.equal(solution([3, 4, -1, 1]), 2)
+  assert.equal(solution([-2, 3, 0, 4, -1, 1, 6]), 2)
+})
