@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "tap": "^12.6.3"
+    "tap": "^14.6.1"
   }
 }
